@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón del Coco | Culiacán</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --verde-coco: #4a6741;
+            --crema: #fdfaf5;
+            --naranja: #e67e22;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: var(--crema); color: #333; }
+        
+        /* Hero Section */
+        header { 
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('571995678_17853912246558810_7787507450648182854_n.jpg'); 
+            background-size: cover; background-position: center; height: 80vh; 
+            display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white;
+        }
+        .logo { width: 180px; border-radius: 50%; border: 5px solid white; margin-bottom: 20px; }
+        h1 { font-size: 3rem; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        
+        /* Botón de Acción Principal */
+        .cta-button { 
+            background-color: #25d366; color: white; padding: 15px 30px; 
+            text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.2rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: 0.3s; margin-top: 20px;
+        }
+        .cta-button:hover { transform: scale(1.05); background-color: #128c7e; }
+
+        /* Secciones */
+        section { padding: 50px 20px; max-width: 1000px; margin: auto; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+        .card { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .card img { width: 100%; border-radius: 10px; }
+
+        /* Menú rápido */
+        .menu-resumen { background-color: var(--verde-coco); color: white; padding: 40px 20px; }
+        .price { font-weight: bold; color: #ffeb3b; font-size: 1.2rem; }
+
+        footer { background: #222; color: white; padding: 40px 20px; }
+        .social-icons a { color: white; font-size: 1.5rem; margin: 0 10px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.jpg" alt="Logo El Rincón del Coco" class="logo">
+        <h1>Lo más fresco de Culiacán</h1>
+        <p>Cocos naturales, preparados y el mejor aceite 100% natural.</p>
+        <a href="https://wa.me/526676953354" class="cta-button"><i class="fab fa-whatsapp"></i> ¡Pide por WhatsApp!</a>
+    </header>
+
+    <section id="productos">
+        <h2>Nuestros Favoritos</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="540517835_17845863144558810_2351270743295843971_n.jpg" alt="Coco Preparado">
+                <h3>Coco Preparado</h3>
+                <p>Con sal, limón, chile, clamato y salsas marisqueras.</p>
+                <span class="price">$70</span>
+            </div>
+            <div class="card">
+                <img src="573401871_17854612833558810_1619013237383829048_n.jpg" alt="Tosticoco">
+                <h3>Tosticoco</h3>
+                <p>El snack perfecto: Tostitos, pepino, cacahuate y coco fresco.</p>
+                <span class="price">$95</span>
+            </div>
+            <div class="card">
+                <img src="558861473_17851264674558810_8320713702936671458_n.jpg" alt="Aceite de Coco">
+                <h3>Aceite de Coco</h3>
+                <p>100% natural. Ideal para salud mental, piel y cocina.</p>
+                <span class="price">Desde $150</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-resumen">
+        <h2>🕒 Horarios y Ubicación</h2>
+        <p><i class="fas fa-map-marker-alt"></i> Av Venustiano Carranza 333, Centro, Culiacán.</p>
+        <p>Lunes a Sábado: 7:00 am - 6:00 pm | Domingos: 7:00 am - 2:00 pm</p>
+    </section>
+
+    <footer>
+        <h3>Contáctanos</h3>
+        <p>Tel: 667 695 3354 | rincondelcoco0626@icloud.com</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=61579995860343"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/rincon_del_coco"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p style="margin-top: 20px; font-size: 0.8rem;">© 2026 El Rincón del Coco - Culiacán, Sin.</p>
+    </footer>
+
+</body>
+</html>
