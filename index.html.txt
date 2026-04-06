@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Rincón del Coco | Culiacán</title>
+    <title>El Rincon del Coco | Culiacán</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
@@ -15,7 +15,7 @@
         
         /* Hero Section */
         header { 
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('571995678_17853912246558810_7787507450648182854_n.jpg'); 
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img_0.jpg'); 
             background-size: cover; background-position: center; height: 80vh; 
             display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white;
         }
@@ -47,7 +47,7 @@
 <body>
 
     <header>
-        <img src="logo.jpg" alt="Logo El Rincón del Coco" class="logo">
+        <img src="logo.jpg" alt="Logo El Rincon del Coco" class="logo">
         <h1>Lo más fresco de Culiacán</h1>
         <p>Cocos naturales, preparados y el mejor aceite 100% natural.</p>
         <a href="https://wa.me/526676953354" class="cta-button"><i class="fab fa-whatsapp"></i> ¡Pide por WhatsApp!</a>
@@ -57,19 +57,19 @@
         <h2>Nuestros Favoritos</h2>
         <div class="grid">
             <div class="card">
-                <img src="540517835_17845863144558810_2351270743295843971_n.jpg" alt="Coco Preparado">
+                <img src="img_1.jpg" alt="Coco Preparado">
                 <h3>Coco Preparado</h3>
                 <p>Con sal, limón, chile, clamato y salsas marisqueras.</p>
                 <span class="price">$70</span>
             </div>
             <div class="card">
-                <img src="573401871_17854612833558810_1619013237383829048_n.jpg" alt="Tosticoco">
+                <img src="img_2.jpg" alt="Tosticoco">
                 <h3>Tosticoco</h3>
                 <p>El snack perfecto: Tostitos, pepino, cacahuate y coco fresco.</p>
                 <span class="price">$95</span>
             </div>
             <div class="card">
-                <img src="558861473_17851264674558810_8320713702936671458_n.jpg" alt="Aceite de Coco">
+                <img src="img_3.jpg" alt="Aceite de Coco">
                 <h3>Aceite de Coco</h3>
                 <p>100% natural. Ideal para salud mental, piel y cocina.</p>
                 <span class="price">Desde $150</span>
@@ -90,7 +90,7 @@
             <a href="https://www.facebook.com/profile.php?id=61579995860343"><i class="fab fa-facebook"></i></a>
             <a href="https://instagram.com/rincon_del_coco"><i class="fab fa-instagram"></i></a>
         </div>
-        <p style="margin-top: 20px; font-size: 0.8rem;">© 2026 El Rincón del Coco - Culiacán, Sin.</p>
+        <p style="margin-top: 20px; font-size: 0.8rem;">© 2026 El Rincon del Coco - Culiacán, Sin.</p>
     </footer>
 
 </body>
